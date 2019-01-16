@@ -1,0 +1,15 @@
+{
+  "name": "shared-code",
+  "version": "1.0.0",
+  "description": "Common Code between Mobile and web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "actions",
+    "reducers"
+  ],
+  "author": "nineleaps",
+  "license": "ISC"
+}

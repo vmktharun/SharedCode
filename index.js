@@ -1,4 +1,4 @@
-import reducer from './src/reducers/signIn';
+import reducer from './src/reducers';
 import {
     signIn,
     signIn_success,

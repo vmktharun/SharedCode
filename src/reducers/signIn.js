@@ -1,9 +1,9 @@
 import {SIGNIN, SIGNIN_FAILED, SIGNIN_SUCCESS} from "../constant";
 const initialState = {
     loading: false,
-}
+};
 
-export default function reducer(state = initialState, action) {
+export default function(state = initialState, action) {
     switch(action.type) {
         case SIGNIN:
             return {

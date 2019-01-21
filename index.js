@@ -9,7 +9,6 @@ import {
     SIGNIN_SUCCESS,
     SIGNIN_FAILED
 } from "./src/constant";
-
 export {
     reducer,
     signIn,

@@ -1,9 +1,11 @@
 import reducer from './src/reducers';
 import {
-    login
+    login,
+    getNews
 } from './src/actions';
 
 export {
     reducer,
-    login
+    login,
+    getNews
 };

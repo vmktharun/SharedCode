@@ -1,4 +1,4 @@
-import {SIGNIN_SUCCESS, SIGNIN_FAILED } from '../constant';
+import {SIGNIN_SUCCESS, SIGNIN_FAILED ,GET_NEWS} from '../constant';
 
 export const login = place => {
     return {
@@ -13,3 +13,9 @@ export const loginfailed = id => {
         id
     };
 };
+
+export const getNews = () => ({
+    type: GET_NEWS,
+});
+
+

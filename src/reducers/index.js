@@ -1,4 +1,4 @@
-import {SIGNIN_FAILED, SIGNIN_SUCCESS} from "../constant";
+import {GET_NEWS, SIGNIN_FAILED, SIGNIN_SUCCESS} from "../constant";
 
 function success(data) {
     return {
@@ -13,8 +13,10 @@ function failed(data) {
     };
 }
 
-export default function reducer(state = [], action) {
+export default function reducer(state = {}, action) {
     switch(action.type) {
+        case GET_NEWS:
+            return { ...state, loading: true };
         case SIGNIN_SUCCESS:
             return [
                 ...state,

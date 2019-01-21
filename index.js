@@ -1,11 +1,21 @@
-import reducer from './src/reducers';
+import reducer from './src/reducers/signIn';
 import {
-    login,
-    getNews
+    signIn,
+    signIn_success,
+    signIn_failed
 } from './src/actions';
+import {
+    SIGNIN,
+    SIGNIN_SUCCESS,
+    SIGNIN_FAILED
+} from "./src/constant";
 
 export {
     reducer,
-    login,
-    getNews
+    signIn,
+    signIn_success,
+    signIn_failed,
+    SIGNIN,
+    SIGNIN_SUCCESS,
+    SIGNIN_FAILED
 };

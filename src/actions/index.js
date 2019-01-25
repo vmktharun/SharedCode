@@ -1,24 +1,24 @@
 import {
-    SIGNUP,
-    SIGNUP_SUCCESS,
-    SIGNUP_FAILED
+    SIGNIN,
+    SIGNIN_SUCCESS,
+    SIGNIN_FAILED
 } from '../constant';
 
 export const signIn = () => {
     return {
-        type: SIGNUP,
+        type: SIGNIN,
     };
 };
 
 export const signIn_success = () => {
     return {
-        type: SIGNUP_SUCCESS,
+        type: SIGNIN_SUCCESS,
     };
 };
 
 export const signIn_failed = () => {
     return {
-        type: SIGNUP_FAILED,
+        type: SIGNIN_FAILED,
     };
 };
 

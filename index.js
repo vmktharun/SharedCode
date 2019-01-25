@@ -5,16 +5,16 @@ import {
     signIn_failed
 } from './src/actions';
 import {
-    SIGNUP,
-    SIGNUP_SUCCESS,
-    SIGNUP_FAILED
+    SIGNIN,
+    SIGNIN_SUCCESS,
+    SIGNIN_FAILED
 } from "./src/constant";
 export {
     reducer,
     signIn,
     signIn_success,
     signIn_failed,
-    SIGNUP,
-    SIGNUP_SUCCESS,
-    SIGNUP_FAILED
+    SIGNIN,
+    SIGNIN_SUCCESS,
+    SIGNIN_FAILED
 };

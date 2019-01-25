@@ -1,21 +1,21 @@
-import {SIGNUP, SIGNUP_FAILED, SIGNUP_SUCCESS} from "../constant";
+import {SIGNIN, SIGNIN_FAILED, SIGNIN_SUCCESS} from "../constant";
 const initialState = {
     loading: false,
 };
 
 export default function reducer(state = {}, action) {
     switch(action.type) {
-        case SIGNUP:
+        case SIGNIN:
             return {
                 ...state,
                 loading: true
             };
-        case SIGNUP_SUCCESS:
+        case SIGNIN_SUCCESS:
             return {
                 ...state,
                 loading: false
             };
-        case SIGNUP_FAILED:
+        case SIGNIN_FAILED:
             return {
                 ...state,
                 loading: false

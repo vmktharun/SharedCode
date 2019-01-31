@@ -1,9 +1,10 @@
 import {SIGNIN, SIGNIN_FAILED, SIGNIN_SUCCESS} from "../constant";
 const initialState = {
     loading: false,
+    navigate:''
 };
 
-export default function reducer(state = {}, action) {
+export default function reducer(state = {initialState}, action) {
     switch(action.type) {
         case SIGNIN:
             return {
@@ -13,7 +14,8 @@ export default function reducer(state = {}, action) {
         case SIGNIN_SUCCESS:
             return {
                 ...state,
-                loading: false
+                loading: false,
+                navigate: "Otp"
             };
         case SIGNIN_FAILED:
             return {

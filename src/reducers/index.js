@@ -12,6 +12,7 @@ export default function reducer(state = {initialState}, action) {
                 loading: true
             };
         case SIGNIN_SUCCESS:
+            console.log('State',initialState)
             return {
                 ...state,
                 loading: false,
